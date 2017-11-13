@@ -1,5 +1,6 @@
 " Cytram-vim-config
 " version: 1.0.0
+" https://github.com/Cytram/vimrc/blob/master/.vimrc "
 
 " ============================================================================
 " Vim-plug initialization
