@@ -1,0 +1,33 @@
+import requests, json
+
+
+Session = requests.Session()
+
+content = Session.get("http://data.task.theplatform.com/task/data/Task?range=1-100&sort=percentComplete%7Cdesc&byStatus=pendingBatchReady%7CpendingOther%7CinQueue%7CinProgress%7CinProgressWithErrors%7CinPostProcessing%7Cfailed%7Cunknown&count=true&token=9Z8pG5URfviolanAn9UOgaBq0DAKQJD6&account=http%3A%2F%2Faccess.auth.theplatform.com%2Fdata%2FAccount%2F2325657897&schema=1.1&fields=id%2Cdescription%2Ctitle%2Cguid%2Cupdated%2CownerId%2Cadded%2CaddedByUserId%2CupdatedByUserId%2Cversion%2Clocked%2Cpltask%24batchId%2Cpltask%24status%2Cpltask%24statusInfo%2Cpltask%24percentComplete%2Cpltask%24maximumAttempts%2Cpltask%24attemptNumber%2Cpltask%24processingAgent%2Cpltask%24capableAgents%2Cpltask%24priority%2Cpltask%24diagnostics%2Cpltask%24taskType%2Cpltask%24context%2Cpltask%24contexts%2Cpltask%24taskTypeId%2Cpltask%24lastDiagnostic%2Cpltask%24incapableAgents%2Cpltask%24taskArguments%2Cpltask%24taskTemplateId&form=json")
+
+JsonObj = json.loads(content.content)
+
+print(JsonObj)
+
+
+#print(JsonObj.keys())
+#print(JsonObj["totalResults"])
+#print(JsonObj["startIndex"])
+#print(JsonObj["itemsPerPage"])
+#print(JsonObj["entries"])
+
+class MPXTask:
+    def __ini__(init, task):
+        self.task = task
+        
+        
+    def ShowTitle(init):
+        print(self.task)
+
+#print(json.dumps(JsonObj, indent=4, sort_keys=True))
+
+#print(JsonObj["entries"])
+
+
+for object in JsonObj["entries"]:
+    print(object["pltask$lastDiagnostic"])
