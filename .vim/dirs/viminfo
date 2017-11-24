@@ -11,323 +11,806 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<for\>
+~Msle0~/\<10\>
 
 # Command Line History (newest to oldest):
 :x!
-|2,0,1510565089,,"x!"
+|2,0,1511515670,,"x!"
 :q!
-|2,0,1510325360,,"q!"
+|2,0,1511515644,,"q!"
 :x1
-|2,0,1510215212,,"x1"
-:PluginInstall
-|2,0,1510215158,,"PluginInstall"
-:set ftplugin on
-|2,0,1510215055,,"set ftplugin on"
-:set paste
-|2,0,1510213656,,"set paste"
-:PluginClean
-|2,0,1510127164,,"PluginClean"
-:Plugin Install
-|2,0,1510127148,,"Plugin Install"
-:Plugin
-|2,0,1510127142,,"Plugin"
-:Plugins
-|2,0,1510127060,,"Plugins"
-:PluginClear
-|2,0,1510126923,,"PluginClear"
-:ft=ansible
-|2,0,1510063220,,"ft=ansible"
-:set nopaste
-|2,0,1510061798,,"set nopaste"
+|2,0,1511514750,,"x1"
+:1!
+|2,0,1511508468,,"1!"
+:Q!
+|2,0,1511471881,,"Q!"
 :w!
-|2,0,1509979335,,"w!"
-:s
-|2,0,1509978937,,"s"
+|2,0,1511443462,,"w!"
+:q1
+|2,0,1511339757,,"q1"
+:!
+|2,0,1511295330,,"!"
+:x
+|2,0,1511295212,,"x"
 :wQ
-|2,0,1509976123,,"wQ"
+|2,0,1511185520,,"wQ"
+:w !python3
+|2,0,1510902845,,"w !python3"
+:w! python3
+|2,0,1510902808,,"w! python3"
+:w !python
+|2,0,1510902672,,"w !python"
+:W !python
+|2,0,1510902667,,"W !python"
+:PluginInstall
+|2,0,1510841201,,"PluginInstall"
+:python3 -v
+|2,0,1510839840,,"python3 -v"
+:python -v
+|2,0,1510839833,,"python -v"
+:python -version
+|2,0,1510839827,,"python -version"
+:python3 -version
+|2,0,1510839817,,"python3 -version"
+:python
+|2,0,1510839809,,"python"
+:set paste
+|2,0,1510780996,,"set paste"
+:set ftplugin on
+|2,0,0,,"set ftplugin on"
+:PluginClean
+|2,0,0,,"PluginClean"
+:Plugin Install
+|2,0,0,,"Plugin Install"
+:Plugin
+|2,0,0,,"Plugin"
+:Plugins
+|2,0,0,,"Plugins"
+:PluginClear
+|2,0,0,,"PluginClear"
+:ft=ansible
+|2,0,0,,"ft=ansible"
+:set nopaste
+|2,0,0,,"set nopaste"
+:s
+|2,0,0,,"s"
 
 # Search String History (newest to oldest):
+?/DOWN
+|2,1,1511339807,47,"DOWN"
+?/gra
+|2,1,1511186221,47,"gra"
+?/username
+|2,1,1511185804,47,"username"
+? \<10\>
+|2,1,1511185464,,"\\<10\\>"
 ?/vundle
-|2,1,1510060583,47,"vundle"
+|2,1,0,47,"vundle"
 ? \<for\>
-|2,1,1510056248,,"\\<for\\>"
+|2,1,0,,"\\<for\\>"
 ? \<print\>
-|2,1,1510056246,,"\\<print\\>"
+|2,1,0,,"\\<print\\>"
 ?/filetype off
-|2,1,1509978989,47,"filetype off"
+|2,1,0,47,"filetype off"
 ?/set backspace
-|2,1,1509976670,47,"set backspace"
+|2,1,0,47,"set backspace"
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
 @n
-|2,3,1510127176,,"n"
+|2,3,0,,"n"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
-	" http://fisadev.github.io/fisa-vim-config/
-|3,1,1,1,1,0,1510565051,"\" http://fisadev.github.io/fisa-vim-config/"
-"2	LINE	0
-	" All of your Plugins must be added before the following line
-|3,0,2,1,1,0,1510061786,"\" All of your Plugins must be added before the following line"
-"3	LINE	0
+"0	LINE	0
 	
-|3,0,3,1,1,0,1510061785,""
+|3,0,0,1,1,0,1511295220,""
+""1	LINE	0
+	VOLUME ~/Documents/docker/nginx-webserver /home/
+|3,1,1,1,1,0,1511515662,"VOLUME ~/Documents/docker/nginx-webserver /home/"
+"2	LINE	0
+	set -g theme_display_hg yes
+	set -g theme_display_virtualenv no
+|3,0,2,1,2,0,1511471826,"set -g theme_display_hg yes","set -g theme_display_virtualenv no"
+"3	LINE	0
+	set -g theme_powerline_fonts no
+	set -g theme_nerd_fonts yes
+|3,0,3,1,2,0,1511471825,"set -g theme_powerline_fonts no","set -g theme_nerd_fonts yes"
 "4	LINE	0
-	" Plugin 'ascenator/L9', {'name': 'newL9'}
-|3,0,4,1,1,0,1510061785,"\" Plugin 'ascenator/L9', {'name': 'newL9'}"
+	set -g theme_newline_cursor yes
+	
+|3,0,4,1,2,0,1511471825,"set -g theme_newline_cursor yes",""
 "5	LINE	0
-	" different version somewhere else.
-|3,0,5,1,1,0,1510061784,"\" different version somewhere else."
+	set -g fish_prompt_pwd_dir_length 0
+	set -g theme_project_dir_length 1
+|3,0,5,1,2,0,1511471825,"set -g fish_prompt_pwd_dir_length 0","set -g theme_project_dir_length 1"
 "6	LINE	0
-	" Install L9 and avoid a Naming conflict if you've already installed a
-|3,0,6,1,1,0,1510061784,"\" Install L9 and avoid a Naming conflict if you've already installed a"
+	set -g default_user your_normal_user
+	set -g theme_color_scheme dark
+|3,0,6,1,2,0,1511471825,"set -g default_user your_normal_user","set -g theme_color_scheme dark"
 "7	LINE	0
-	Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-|3,0,7,1,1,0,1510061784,"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}"
+	set -g theme_nerd_fonts yes
+	set -g theme_show_exit_status yes
+|3,0,7,1,2,0,1511471825,"set -g theme_nerd_fonts yes","set -g theme_show_exit_status yes"
 "8	LINE	0
-	" Pass the path to set the runtimepath properly.
-|3,0,8,1,1,0,1510061783,"\" Pass the path to set the runtimepath properly."
+	set -g theme_avoid_ambiguous_glyphs yes
+	set -g theme_powerline_fonts no
+|3,0,8,1,2,0,1511471825,"set -g theme_avoid_ambiguous_glyphs yes","set -g theme_powerline_fonts no"
 "9	LINE	0
-	" The sparkup vim script is in a subdirectory of this repo called vim.
-|3,0,9,1,1,0,1510061783,"\" The sparkup vim script is in a subdirectory of this repo called vim."
+	set -g theme_title_use_abbreviated_path no
+	set -g theme_date_format "+%a %H:%M"
+|3,0,9,1,2,0,1511471824,"set -g theme_title_use_abbreviated_path no","set -g theme_date_format \"+%a %H:%M\""
 "-	CHAR	0
-	t
-|3,0,36,0,1,0,1510325352,"t"
+	s
+|3,0,36,0,1,0,1511471897,"s"
 
 # File marks:
-'0  434  0  ~/.vimrc
-|4,48,434,0,1510565089,"~/.vimrc"
-'1  6  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,49,6,0,1510232998,"~/Documents/TV2/MPX/mpx-request.py"
-'2  3  0  ~/.vimrc
-|4,50,3,0,1510228357,"~/.vimrc"
-'3  4  0  ~/.vimrc
-|4,51,4,0,1510228357,"~/.vimrc"
-'4  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,52,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
-'5  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,53,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
-'6  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,54,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
-'7  12  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,55,12,0,1510215299,"~/Documents/Git/monitoring/alertmanager.yml"
-'8  12  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,56,12,0,1510215299,"~/Documents/Git/monitoring/alertmanager.yml"
-'9  12  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,57,12,0,1510215299,"~/Documents/Git/monitoring/alertmanager.yml"
+'0  17  32  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,48,17,32,1511515670,"~/Documents/docker/nginx-webserver/Dockerfile"
+'1  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,49,1,0,1511515644,"~/Documents/docker/nginx-webserver/Dockerfile"
+'2  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,50,1,0,1511515644,"~/Documents/docker/nginx-webserver/Dockerfile"
+'3  1  368  ~/nginxlogs/test
+|4,51,1,368,1511515616,"~/nginxlogs/test"
+'4  1  0  ~/nginxlogs/dockerfile
+|4,52,1,0,1511515593,"~/nginxlogs/dockerfile"
+'5  1  2  ~/nginxlogs/test
+|4,53,1,2,1511515551,"~/nginxlogs/test"
+'6  17  46  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,54,17,46,1511515034,"~/Documents/docker/nginx-webserver/Dockerfile"
+'7  17  46  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,55,17,46,1511515034,"~/Documents/docker/nginx-webserver/Dockerfile"
+'8  17  46  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,56,17,46,1511515034,"~/Documents/docker/nginx-webserver/Dockerfile"
+'9  17  41  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,57,17,41,1511514964,"~/Documents/docker/nginx-webserver/Dockerfile"
 
 # Jumplist (newest first):
--'  434  0  ~/.vimrc
-|4,39,434,0,1510565089,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1510565037,"~/.vimrc"
--'  6  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,6,0,1510232998,"~/Documents/TV2/MPX/mpx-request.py"
--'  6  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,6,0,1510232998,"~/Documents/TV2/MPX/mpx-request.py"
--'  6  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,6,0,1510232998,"~/Documents/TV2/MPX/mpx-request.py"
--'  6  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,6,0,1510232998,"~/Documents/TV2/MPX/mpx-request.py"
--'  6  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,6,0,1510232998,"~/Documents/TV2/MPX/mpx-request.py"
--'  6  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,6,0,1510232998,"~/Documents/TV2/MPX/mpx-request.py"
--'  6  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,6,0,1510232998,"~/Documents/TV2/MPX/mpx-request.py"
--'  6  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,6,0,1510232998,"~/Documents/TV2/MPX/mpx-request.py"
--'  3  0  ~/.vimrc
-|4,39,3,0,1510228357,"~/.vimrc"
--'  4  0  ~/.vimrc
-|4,39,4,0,1510228357,"~/.vimrc"
--'  4  0  ~/.vimrc
-|4,39,4,0,1510228357,"~/.vimrc"
--'  4  0  ~/.vimrc
-|4,39,4,0,1510228357,"~/.vimrc"
--'  4  0  ~/.vimrc
-|4,39,4,0,1510228357,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1510221433,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1510221433,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1510221433,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1510221433,"~/.vimrc"
--'  1  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,1,0,1510215694,"~/Documents/TV2/MPX/mpx-request.py"
--'  1  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,1,0,1510215694,"~/Documents/TV2/MPX/mpx-request.py"
--'  1  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,1,0,1510215694,"~/Documents/TV2/MPX/mpx-request.py"
--'  1  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,1,0,1510215694,"~/Documents/TV2/MPX/mpx-request.py"
--'  1  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,1,0,1510215694,"~/Documents/TV2/MPX/mpx-request.py"
--'  1  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,1,0,1510215694,"~/Documents/TV2/MPX/mpx-request.py"
--'  1  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,1,0,1510215694,"~/Documents/TV2/MPX/mpx-request.py"
--'  1  0  ~/Documents/TV2/MPX/mpx-request.py
-|4,39,1,0,1510215694,"~/Documents/TV2/MPX/mpx-request.py"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215669,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  6  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,6,0,1510215334,"~/Documents/Git/monitoring/alertmanager.yml"
--'  1  0  ~/Documents/Git/monitoring/alertmanager.yml
-|4,39,1,0,1510215300,"~/Documents/Git/monitoring/alertmanager.yml"
+-'  17  32  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,32,1511515670,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511515659,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511515644,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  368  ~/nginxlogs/test
+|4,39,1,368,1511515616,"~/nginxlogs/test"
+-'  1  368  ~/nginxlogs/test
+|4,39,1,368,1511515616,"~/nginxlogs/test"
+-'  1  368  ~/nginxlogs/test
+|4,39,1,368,1511515616,"~/nginxlogs/test"
+-'  1  368  ~/nginxlogs/test
+|4,39,1,368,1511515616,"~/nginxlogs/test"
+-'  1  0  ~/nginxlogs/dockerfile
+|4,39,1,0,1511515593,"~/nginxlogs/dockerfile"
+-'  1  0  ~/nginxlogs/dockerfile
+|4,39,1,0,1511515593,"~/nginxlogs/dockerfile"
+-'  1  0  ~/nginxlogs/dockerfile
+|4,39,1,0,1511515593,"~/nginxlogs/dockerfile"
+-'  1  0  ~/nginxlogs/dockerfile
+|4,39,1,0,1511515593,"~/nginxlogs/dockerfile"
+-'  1  0  ~/nginxlogs/dockerfile
+|4,39,1,0,1511515593,"~/nginxlogs/dockerfile"
+-'  1  0  ~/nginxlogs/dockerfile
+|4,39,1,0,1511515593,"~/nginxlogs/dockerfile"
+-'  1  0  ~/nginxlogs/dockerfile
+|4,39,1,0,1511515593,"~/nginxlogs/dockerfile"
+-'  1  0  ~/nginxlogs/dockerfile
+|4,39,1,0,1511515593,"~/nginxlogs/dockerfile"
+-'  1  2  ~/nginxlogs/test
+|4,39,1,2,1511515551,"~/nginxlogs/test"
+-'  1  2  ~/nginxlogs/test
+|4,39,1,2,1511515551,"~/nginxlogs/test"
+-'  1  2  ~/nginxlogs/test
+|4,39,1,2,1511515551,"~/nginxlogs/test"
+-'  1  2  ~/nginxlogs/test
+|4,39,1,2,1511515551,"~/nginxlogs/test"
+-'  1  2  ~/nginxlogs/test
+|4,39,1,2,1511515551,"~/nginxlogs/test"
+-'  1  2  ~/nginxlogs/test
+|4,39,1,2,1511515551,"~/nginxlogs/test"
+-'  1  2  ~/nginxlogs/test
+|4,39,1,2,1511515551,"~/nginxlogs/test"
+-'  1  2  ~/nginxlogs/test
+|4,39,1,2,1511515551,"~/nginxlogs/test"
+-'  17  46  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,46,1511515034,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  46  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,46,1511515034,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  46  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,46,1511515034,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  46  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,46,1511515034,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  46  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,46,1511515034,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  46  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,46,1511515034,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  46  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,46,1511515034,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  46  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,46,1511515034,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  46  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,46,1511515034,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511515024,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511515024,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511515024,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511515024,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511515024,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511515024,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511515024,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511515024,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  41  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,41,1511514964,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  41  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,41,1511514964,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  41  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,41,1511514964,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  41  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,41,1511514964,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  41  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,41,1511514964,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  41  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,41,1511514964,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  41  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,41,1511514964,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  41  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,41,1511514964,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514956,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514956,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514956,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514956,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514956,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514956,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514956,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514956,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  40  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,40,1511514751,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  40  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,40,1511514751,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  40  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,40,1511514751,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  40  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,40,1511514751,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  40  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,40,1511514751,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  40  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,40,1511514751,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  40  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,40,1511514751,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  40  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,40,1511514751,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514742,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514742,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514742,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514742,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514742,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514742,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514742,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514742,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  47  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,47,1511514566,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  47  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,47,1511514566,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  47  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,47,1511514566,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  47  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,47,1511514566,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  47  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,47,1511514566,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  47  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,47,1511514566,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  47  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,47,1511514566,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  17  47  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,17,47,1511514566,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514451,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514451,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514451,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514451,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514451,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514451,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514451,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/nginx-webserver/Dockerfile
+|4,39,1,0,1511514451,"~/Documents/docker/nginx-webserver/Dockerfile"
+-'  1  0  ~/Documents/docker/grafana-docker/Dockerfile
+|4,39,1,0,1511508470,"~/Documents/docker/grafana-docker/Dockerfile"
+-'  1  0  ~/Documents/docker/grafana-docker/Dockerfile
+|4,39,1,0,1511508470,"~/Documents/docker/grafana-docker/Dockerfile"
+-'  1  0  ~/Documents/docker/grafana-docker/Dockerfile
+|4,39,1,0,1511508470,"~/Documents/docker/grafana-docker/Dockerfile"
+-'  1  0  ~/Documents/docker/grafana-docker/Dockerfile
+|4,39,1,0,1511508470,"~/Documents/docker/grafana-docker/Dockerfile"
+-'  1  0  ~/Documents/docker/grafana-docker/Dockerfile
+|4,39,1,0,1511508470,"~/Documents/docker/grafana-docker/Dockerfile"
+-'  1  0  ~/Documents/docker/grafana-docker/Dockerfile
+|4,39,1,0,1511508470,"~/Documents/docker/grafana-docker/Dockerfile"
+-'  1  0  ~/Documents/docker/grafana-docker/Dockerfile
+|4,39,1,0,1511508470,"~/Documents/docker/grafana-docker/Dockerfile"
+-'  1  0  ~/Documents/docker/grafana-docker/Dockerfile
+|4,39,1,0,1511508470,"~/Documents/docker/grafana-docker/Dockerfile"
+-'  1  0  ~/Documents/docker/grafana-docker/Dockerfile
+|4,39,1,0,1511508470,"~/Documents/docker/grafana-docker/Dockerfile"
+-'  1  0  ~/Documents/docker/grafana-docker/Dockerfile
+|4,39,1,0,1511508470,"~/Documents/docker/grafana-docker/Dockerfile"
+-'  1  0  ~/Documents/docker/grafana-docker/Dockerfile
+|4,39,1,0,1511508470,"~/Documents/docker/grafana-docker/Dockerfile"
+-'  1  0  ~/Documents/docker/grafana-docker/Dockerfile
+|4,39,1,0,1511508470,"~/Documents/docker/grafana-docker/Dockerfile"
 
 # History of marks within files (newest to oldest):
 
+> ~/Documents/docker/nginx-webserver/Dockerfile
+	*	1511515669	0
+	"	17	32
+	^	17	33
+	.	17	32
+	+	17	0
+	+	18	0
+	+	17	32
+
+> ~/nginxlogs/test
+	*	1511515614	0
+	"	1	368
+	^	1	369
+	.	1	366
+	+	1	366
+
+> ~/nginxlogs/dockerfile
+	*	1511515591	0
+	"	1	0
+
+> ~/Documents/docker/grafana-docker/Dockerfile
+	*	1511508468	0
+	"	1	0
+
+> ~/Documents/docker/nginx-loadbalancer-test/load-balancer.conf
+	*	1511475857	0
+	"	6	35
+	^	6	36
+	.	6	36
+	+	5	23
+	+	5	3
+	+	4	3
+	+	6	23
+	+	5	20
+	+	6	24
+	+	5	53
+	+	6	35
+	+	5	51
+	+	6	51
+	+	5	51
+	+	6	24
+	+	5	0
+	+	6	35
+	+	5	36
+	+	6	36
+
+> ~/Documents/docker/nginx-loadbalancer-test/Dockerfile
+	*	1511473858	0
+	"	1	0
+
+> ~/.config/fish/config.fish
+	*	1511471973	0
+	"	24	31
+	^	24	32
+	.	24	32
+	+	30	26
+	+	24	32
+
+> ~/.config/fish/fish.conf
+	*	1511471881	0
+	"	1	0
+	^	31	0
+	.	30	27
+	+	28	0
+	+	30	27
+
+> ~/.config/fish/functions
+	*	1511471836	0
+	"	1	0
+
+> ~/.config/fish/fishd.9801a79fb4a1
+	*	1511471827	0
+	"	32	0
+	.	33	0
+	+	32	2
+	+	33	26
+	+	33	0
+
+> /private/etc/shells
+	*	1511471405	0
+	"	11	0
+	^	11	0
+
+> ~/Documents/Git/nginx-webserver/Dockerfile
+	*	1511449270	0
+	"	1	0
+	^	17	9
+	.	14	0
+	+	19	12
+	+	17	8
+	+	15	0
+	+	14	0
+
+> ~/Documents/Git/nginx-loadbalancer-test/load-balancer.conf
+	*	1511444944	0
+	"	5	27
+	^	5	28
+	.	5	27
+	+	16	0
+	+	5	21
+	+	6	0
+	+	5	27
+
+> ~/Documents/Git/nginx-loadbalancer-test/Dockerfile
+	*	1511444933	0
+	"	1	0
+	.	14	0
+	+	23	0
+	+	22	2
+	+	21	0
+	+	19	1
+	+	17	1
+	+	15	1
+	+	14	1
+	+	8	1
+	+	6	1
+	+	4	1
+	+	2	1
+	+	1	0
+	+	2	0
+	+	4	0
+	+	6	0
+	+	8	0
+	+	14	0
+	+	15	0
+	+	17	0
+	+	19	0
+	+	22	0
+	+	23	0
+	+	4	0
+	+	15	0
+	+	16	0
+	+	18	0
+	+	22	0
+	+	4	0
+	+	18	0
+	+	22	0
+	+	11	39
+	+	10	48
+	+	11	43
+	+	13	4
+	+	12	10
+	+	13	25
+	+	15	44
+	+	16	40
+	+	15	10
+	+	14	29
+	+	23	0
+	+	15	0
+	+	16	0
+	+	18	0
+	+	18	32
+	+	18	27
+	+	16	3
+	+	18	3
+	+	22	13
+	+	23	1
+	+	22	12
+	+	23	0
+	+	22	13
+	+	23	14
+	+	18	0
+	+	23	0
+	+	14	0
+
+> ~/Documents/Git/nginx-loadbalancer-test/load
+	*	1511444884	0
+	"	1	0
+
+> ~/Documents/Git/apache2-webserver/Dockerfile
+	*	1511444340	0
+	"	22	12
+	^	22	13
+	.	22	12
+	+	1	11
+	+	22	13
+	+	9	29
+	+	14	0
+	+	15	6
+	+	16	28
+	+	18	0
+	+	20	8
+	+	22	12
+
+> ~/Documents/Git/nginx-loadbalancer-test/ports.conf
+	*	1511443169	0
+	"	1	0
+	^	5	9
+	.	5	8
+	+	1	74
+	+	15	43
+	+	5	8
+
+> ~/Dockerfile
+	*	1511437269	0
+	"	1	0
+
+> ~/Documents/Git/nginx-loadbalancer/Dockerfile
+	*	1511361648	0
+	"	40	22
+	^	1	0
+	.	1	0
+	+	40	22
+	+	10	19
+	+	27	0
+	+	30	0
+	+	7	17
+	+	15	0
+	+	33	0
+	+	40	22
+	+	15	0
+	+	1	0
+
+> ~/Documents/Git/nginx-loadbalancer/nginx.conf
+	*	1511361097	0
+	"	1	0
+	^	46	0
+	.	45	1
+	+	45	1
+
+> ~/Documents/Git/grafana-docker/Dockerfile
+	*	1511341594	0
+	"	1	0
+	^	1	0
+	.	1	10
+	+	5	53
+	+	3	0
+	+	5	22
+	+	14	0
+	+	5	17
+	+	19	10
+	+	6	53
+	+	3	0
+	+	4	44
+	+	3	4
+	+	1	0
+	+	3	0
+	+	4	0
+	+	14	0
+	+	3	0
+	+	4	0
+	+	14	0
+	+	19	0
+	+	12	0
+	+	6	0
+	+	9	39
+	+	7	48
+	+	4	0
+	+	5	0
+	+	3	19
+	+	1	17
+	+	7	0
+	+	11	17
+	+	4	0
+	+	5	0
+	+	7	1
+	+	17	8
+	+	13	82
+	+	15	34
+	+	10	22
+	+	11	3
+	+	1	10
+
+> ~/Documents/Git/grafana-docker/circle.yml
+	*	1511339757	0
+	"	15	33
+	.	17	0
+	+	17	0
+
+> ~/Documents/Git/prometheus/docker-compose.yml
+	*	1511289736	0
+	"	71	2
+	^	73	16
+	.	73	15
+	+	51	0
+	+	23	0
+	+	29	0
+	+	73	15
+
+> ~/Documents/Git/prometheus/snmp/snmp.yml
+	*	1511288437	0
+	"	1645	10
+
+> ~/Documents/Git/prometheus/config.monitoring
+	*	1511288192	0
+	"	1	0
+	^	5	92
+	.	5	91
+	+	5	91
+
+> ~/Documents/Git/prometheus/alertmanager/config.yml
+	*	1511287605	0
+	"	6	0
+
+> ~/Documents/Git/prometheus/HighLoadDashboard.json
+	*	1511287595	0
+	"	254	2
+
+> ~/Documents/Git/prometheus/Grafana_Dashboard.json
+	*	1511287587	0
+	"	310	12
+
+> ~/Documents/Git/prometheus/dashboards/System_Monitoring.json
+	*	1511287572	0
+	"	749	0
+
+> ~/1
+	*	1511287218	0
+	"	1	0
+
+> ~/.ssh/known_hosts
+	*	1511287006	0
+	"	9	0
+	.	10	0
+	+	10	0
+
+> ~/.ssh/known_hosts:10
+	*	1511286992	0
+	"	1	0
+
+> ~/Documents/Git/prometheus/prometheus/prometheus.yml
+	*	1511188726	0
+	"	17	0
+	^	69	9
+	.	69	0
+	+	13	0
+	+	14	0
+	+	20	0
+	+	32	0
+	+	33	0
+	+	55	0
+	+	56	8
+	+	58	8
+	+	70	0
+	+	69	0
+
+> ~/Downloads/VLC playliste for intern TV distribution.pls
+	*	1511188582	0
+	"	8	0
+
+> ~/Downloads/VLC
+	*	1511188559	0
+	"	1	0
+
+> ~/Documents/Git/prometheus/dashboards/Grafana_Dashboard.json
+	*	1511185805	0
+	"	1	0
+
+> ~/Documents/Kino Spider/main.py
+	*	1510902844	0
+	"	9	23
+	^	9	24
+	.	9	23
+	+	4	0
+	+	5	8
+	+	4	0
+	+	5	6
+	+	6	0
+	+	7	9
+	+	2	22
+	+	8	0
+	+	9	19
+	+	8	0
+	+	9	23
+
+> ~/Documents/Kino Spider/requests.py
+	*	1510839698	0
+	"	3	0
+	^	3	1
+	.	3	0
+	+	1	49
+	+	1	10
+	+	1	19
+	+	1	0
+	+	1	22
+	+	1	62
+	+	1	0
+	+	1	15
+	+	4	34
+	+	2	0
+	+	4	0
+	+	2	0
+	+	4	0
+	+	5	7
+	+	3	0
+
+> ~/Documents/Kino Spider/req
+	*	1510838987	0
+	"	1	0
+
+> ~/Documents/docker/Dockerfile
+	*	1510781015	0
+	"	21	0
+	^	23	12
+	.	20	0
+	+	1	17
+	+	1	0
+	+	1	26
+	+	1	0
+	+	1	1
+	+	23	11
+	+	20	0
+
+> ~/Documents/docker/dockerfile
+	*	1510779862	0
+	"	15	0
+	.	15	0
+	+	1	10
+	+	3	38
+	+	22	0
+	+	16	0
+	+	15	0
+
+> ~/Desktop/vim/.vimrc
+	*	1510651333	0
+	"	1	0
+	^	12	7
+	.	12	6
+	+	3	53
+	+	4	0
+	+	9	1
+	+	12	6
+
+> ~/.account
+	*	1510568045	0
+	"	61	0
+
+> ~/Desktop/vim/.git/COMMIT_EDITMSG
+	"	1	0
+
+> ~/Desktop/vim/NERD_tree_1
+	*	1510567633	0
+	"	1	0
+	.	1	0
+	+	1	0
+
 > ~/.vimrc
-	*	1510565088	0
-	"	434	0
+	*	1510566860	0
+	"	1	0
 	^	2	16
 	.	2	15
 	+	19	14
@@ -365,6 +848,12 @@
 	+	35	25
 	+	1	7
 	+	2	15
+
+> ~/NERD_tree_1
+	*	1510566852	0
+	"	12	0
+	.	1	0
+	+	1	0
 
 > ~/Documents/TV2/MPX/mpx-request.py
 	*	1510215702	0
@@ -468,19 +957,6 @@
 > ~/Documents/test.yaml
 	*	1510062116	0
 	"	1	0
-
-> ~/NERD_tree_1
-	*	1510060551	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/.config/fish/fishd.9801a79fb4a1
-	*	1510048646	0
-	"	32	0
-	^	32	1
-	.	32	0
-	+	32	0
 
 > ~/.vimrc_backup
 	*	1509978936	0
